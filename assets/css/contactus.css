@@ -465,17 +465,17 @@
               width: 110px;
             }
             .hero-content{
+                width: 90vw !important;
+                height: 20vw !important;
                 padding: 10px !important;
-                width: 80vw;
             }
             
-            .hero .hero-content h1{
-				padding:10px 20px;
-                font-size: 0.7rem;
-                margin-bottom:4px;
+            .hero .hero-content h1 {
+                font-size:18px;
+                margin-bottom:6px;
             }
             .hero .hero-content p{
-                font-size: 0.5rem;
+                font-size: 0.6rem;
                 margin: 0px;
             } 
             /* Map CSS */
@@ -543,7 +543,9 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .hero-content{
         padding: 20px !important;
-        width: 80vw;
+        width: 90vw !important;
+        height: 20vw !important;
+        padding: 10px !important;
     }
     
     .hero .hero-content h1 {
@@ -633,5 +635,19 @@
 }
 
 /* Styles for desktops (medium size) */
-@media only screen and (min-width: 992px) and (max-width: 1440px){
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .hero-content{
+                width: 80vw !important;
+                height: 15vw !important;
+                padding: 10px !important;
+            }
+            
+            .hero .hero-content h1 {
+                font-size:25px;
+                margin-bottom:6px;
+            }
+            .hero .hero-content p{
+                font-size: 1.1rem;
+                margin: 0px;
+            } 
 }
