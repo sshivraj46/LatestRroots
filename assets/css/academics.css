@@ -92,12 +92,13 @@ body {
 .hero-section .container {
 	display: flex;
 	flex-direction: column;
-    justify-content: center;
+    gap: 10px;
+	justify-content: center;
     align-items: center;
     width: 70vw;
     height: 13vw;
 	color: white;
-	padding: 20px;
+	padding: 40px 20px;
 	font-family: var(--navfont-font);
 	background: rgba(175, 188, 240, 0.2);
 	position: absolute;
@@ -608,6 +609,7 @@ body {
 }
 
 /* Responsive Design */
+
 @media only screen and (max-width: 600px) {
 	/* All Sections Padding CSS */
     .academics-intro,
@@ -617,15 +619,19 @@ body {
     .why-families-section{
     		padding: 25px 15px;
     }
+
+	/* Hero Section */
 	.hero-section .container {
-		width: 80vw;
-		height: 25vw;
+		justify-content: center;
+		gap: 5px;
+		width: 90vw;
+		height: 20vw;
 		padding: 10px;
 	}
 
 	.hero-section .container h1 {
-		font-size: 0.8rem;
-		margin-bottom: 7px;
+		font-size: 18px;
+		margin-bottom: 3px;
 	}
 
 	.hero-section .container p {
@@ -828,6 +834,24 @@ body {
     .why-families-section{
     		padding: 25px 15px;
     }
+	/* Hero Section */
+	.hero-section .container {
+		justify-content: center;
+		gap: 5px;
+		width: 90vw;
+		height: 20vw;
+		padding: 10px 20px;
+	}
+
+	.hero-section .container h1 {
+		font-size: 20px;
+		margin-bottom: 3px;
+	}
+
+	.hero-section .container p {
+		font-size: 0.9rem;
+		margin: 0px;
+	}
 	/* Font Weight */
 	.fw-2 {
 		font-weight: 600;
@@ -914,6 +938,24 @@ body {
 		font-weight: 600;
 	}
 
+	/* Hero Section */
+	.hero-section .container {
+		justify-content: center;
+		gap: 5px;
+		width: 90vw;
+		height: 20vw;
+		padding: 10px 20px;
+	}
+
+	.hero-section .container h1 {
+		font-size: 20px;
+		margin-bottom: 3px;
+	}
+
+	.hero-section .container p {
+		font-size: 0.9rem;
+		margin: 0px;
+	}
 	.section-header h1 {
 		font-size: 2.5rem;
 	}
@@ -933,7 +975,7 @@ body {
 	.methodology-section p {
 		font-size: 1.1rem;
 	}
-	/* Our Learning Model */
+	
 	/* Our Learning Model */
 	.timeline-content,.timeline-image{
 		width: 40vw !important;
@@ -966,4 +1008,23 @@ body {
 		font-size: 23px;
 	}
 }
-@media only screen and (min-width: 992px) and (max-width: 1440px) {}
+@media only screen and (min-width: 992px) and (max-width: 1120px) {
+	/* Hero Section */
+	.hero-section .container {
+		justify-content: center;
+		gap: 5px;
+		width: 90vw;
+		height: 20vw;
+		padding:0px 10px;
+	}
+
+	.hero-section .container h1 {
+		font-size: 25px;
+		margin-bottom: 3px;
+	}
+
+	.hero-section .container p {
+		font-size: 1.1rem;
+		margin: 0px;
+	}
+}
