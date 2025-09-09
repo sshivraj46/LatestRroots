@@ -469,7 +469,8 @@
                 width: 80vw;
             }
             
-            .hero .hero-content h1 {
+            .hero .hero-content h1{
+				padding:10px 20px;
                 font-size: 0.7rem;
                 margin-bottom:4px;
             }
