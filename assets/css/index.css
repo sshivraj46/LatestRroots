@@ -172,9 +172,9 @@ i {
     justify-content: center;
     align-items: center;
     width: 70vw;
-    height: 13vw;
+    height: 18vw;
 	color: white;
-	padding: 20px;
+	padding: 60px 30px;
 	font-family: var(--navfont-font);
 	position: absolute;
 	background-color:rgba(0, 0, 0, 0.288);
@@ -186,12 +186,13 @@ i {
 }
 
 .cover-Video-text h1 {
-	bottom: 30px;
+	font-size: 2rem;
 	color: white;
 	text-align: center;
 }
 
 .cover-Video-text .btn {
+	margin-top: 10px;
 	background-color: var(--primary-color);
 	border-radius: 1vw;
 	color: white;
@@ -736,11 +737,12 @@ i {
 	.cover-Video-text {
 		width: 90vw;
 		height: 20vw;
-		padding: 10px;
+		padding: 30px 20px;
 	}
 	.cover-Video-text h1 {
-		font-size: 12px;
+		font-size: 18px;
 		color: white;
+		margin-top: 10px;
 		margin-bottom: 3px;
 		text-align: inter-word;
 	}
@@ -751,10 +753,10 @@ i {
 		align-items: center;
 		justify-content: center;
 		padding: 8px 3px;
-		width: 55px;
-		height: 18px;
+		width: 60px;
+		height: 20px;
 		font-size: 8px;
-		margin-top: 3px;
+		margin-top: 8px;
 	}
 
 	.cover-Video-text h1 a:hover {
@@ -923,14 +925,14 @@ i {
 
 	/*cover-Video-text CSS*/
     .cover-Video-text {
-		width: 70vw;
+		width: 80vw;
 		height: 18vw;
-		padding: 10px;
+		padding: 40px 30px;
 	}
 	.cover-Video-text h1 {
 		bottom: 5px;
 		font-size: 20px;
-		margin-left: 0px 0px 0px 20px;
+		margin-top: 10px;
 		color: white;
 		opacity: 0.9;
 		text-align: inter-word;
@@ -940,7 +942,7 @@ i {
 		padding: 2px 5px;
 		border-radius: 0.8vw;
 		font-size: 10px;
-		margin-left: 5px;
+		margin-top: 2px;
 	}
 
 	.cover-Video-text h1 a:hover {
@@ -1025,18 +1027,21 @@ i {
 
 	/* cover-Video-text CSS */
 	.cover-Video-text {
-		width: 70vw;
+		width: 80vw;
 		height: 18vw;
-		padding: 10px;
+		padding: 40px 30px;
 	}
 	.cover-Video-text h1 {
-		bottom: 5px;
 		font-size: 20px;
-		margin-left: 0px 0px 0px 20px;
 		color: white;
-		opacity: 0.9;
-		text-align: inter-word;
 	}
+	.cover-Video-text .btn {
+		padding: 3px 8px;
+		border-radius: 0.8vw;
+		font-size: 14px;
+		margin-top: 12px;
+	}
+
 	#dreamtimepng {
 		display: block;
 		margin: 20px 0 0 15%;
@@ -1087,8 +1092,22 @@ i {
 }
 
 /* Styles for desktops (medium size) */
-@media only screen and (min-width: 992px) and (max-width: 1440px) {
-
+@media only screen and (min-width: 992px) and (max-width: 1120px) {
+		/* cover-Video-text CSS */
+	/* .cover-Video-text {
+		width: 80vw;
+		height: 18vw;
+		padding: 40px 30px;
+	}
+	.cover-Video-text h1 {
+		font-size: 25px;
+	}
+	.cover-Video-text .btn {
+		padding: 3px 8px;
+		border-radius: 0.8vw;
+		font-size: 14px;
+		margin-top: 12px;
+	} */
 }
 
 @media (prefers-color-scheme: dark) {
